@@ -18,6 +18,16 @@
     --foreground: #ededed;
   }
 } */
+.sidenav {
+  background-color: #1A2751;
+  color: white;
+}
+
+.svg {
+  fill: white;
+  width: 40;
+  height: 32;
+}
 
 body {
   background: var(--background);

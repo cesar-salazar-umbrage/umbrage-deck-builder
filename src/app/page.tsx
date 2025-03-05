@@ -1,9 +1,9 @@
 export default function Home() {
   return (
-      <div className="container grid items-center justify-items-center min-h-screen p-8 pb-20 gap-16">
+      <div className="container-fluid grid items-center justify-items-center min-h-screen p-8 pb-20 gap-16">
         <div className="row">
           <div className="jumbotron jumbotron-fluid">
-              <h1 className="display-4">Fluid jumbotron</h1>
+              <h1 className="display-8">Fluid jumbotron</h1>
               <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
           </div>
         </div>
