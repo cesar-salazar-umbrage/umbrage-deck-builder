@@ -1,22 +1,32 @@
+"use client";
+
+import TableGrid from "./components/TableGrid";
+
+
+
 export default function Home() {
+
+
+
   return (
-      <div className="container-fluid grid items-center justify-items-center min-h-screen p-8 pb-20 gap-16">
-        <div className="row">
-          <div className="jumbotron jumbotron-fluid">
-              <h1 className="display-8">Fluid jumbotron</h1>
-              <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-          </div>
-        </div>
-        <div className="row">
-          <p>Recommended</p>
-        </div>
-        <div className="row">
-          <p>Frequently Used Templates</p>
-        </div>
-        <div className="row">
-          <p>Recently Viewed</p>
+    <div className="container-fluid grid items-center justify-items-center min-h-screen p-8 pb-20 gap-16">
+      <div className="row">
+        <div className="jumbotron jumbotron-fluid">
+          <h1 className="display-8">Fluid jumbotron</h1>
+          <p className="lead">
+            This is a modified jumbotron that occupies the entire horizontal
+            space of its parent.
+          </p>
         </div>
       </div>
+      <div className="row">
+        <p>Recommended</p>
+      </div>
+      <div className="row">
+        <p>Frequently Used Templates</p>
+      </div>
+      <TableGrid/>
+    </div>
     // <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
     //   <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
     //     <Image

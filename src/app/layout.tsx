@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 // import { Geist, Geist_Mono } from "next/font/google";
 // import Image from "next/image";
 import "./globals.css";
+import "ag-grid-community/styles/ag-theme-alpine.css";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
