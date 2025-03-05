@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+// import { Geist, Geist_Mono } from "next/font/google";
+// import Image from "next/image";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,10 +25,55 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body>
+        <div className="container flex">
+          <div className="row flex-row">
+            <div className="col-lg">
+                <div className="nav p-3 bg-light">
+                      <svg className="bi me-2" width="40" height="32"><use xlinkHref="#bootstrap"></use></svg>
+                      <span className="fs-4">U-Pitch</span>
+                    <hr/>
+                    <ul className="nav nav-pills flex-column mb-auto sidenav">
+                      <li className="nav-item">
+                        <a href="#" className="nav-link active" aria-current="page">
+                          <svg className="bi me-2" width="16" height="16"><use xlinkHref="#home"></use></svg>
+                          Home
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="nav-link link-dark">
+                          <svg className="bi me-2" width="16" height="16"><use xlinkHref="#speedometer2"></use></svg>
+                          Workspace
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="nav-link link-dark">
+                          <svg className="bi me-2" width="16" height="16"><use xlinkHref="#table"></use></svg>
+                          All Templates
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="nav-link link-dark">
+                          <svg className="bi me-2" width="16" height="16"><use xlinkHref="#grid"></use></svg>
+                          Integrations
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="nav-link link-dark">
+                          <svg className="bi me-2" width="16" height="16"><use xlinkHref="#people-circle"></use></svg>
+                          Support
+                        </a>
+                      </li>
+                    </ul>
+                    <hr/>
+                </div>
+              {/* </div> */}
+            </div>
+          </div>
+          <div className="col-lg">
+            {children}
+          </div>
+        </div>
       </body>
     </html>
   );
