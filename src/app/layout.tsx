@@ -79,54 +79,43 @@ export default function RootLayout({
                       <li className="nav-item">
                         <a href="#" className="nav-link active flex p-2" aria-current="page">
                           {/* <svg className="bi me-2" width="40" height="32"><use xlinkHref="/home-svgrepo-com.svg"></use></svg> */}
-                          <svg className="svg"  fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0">
-                            </g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier">
-                              <path d="M9 20H7C5.89543 20 5 19.1046 5 18V10.9199C5 10.336 5.25513 9.78132 5.69842 9.40136L10.6984 5.11564C11.4474 4.47366 12.5526 4.47366 13.3016 5.11564L18.3016 9.40136C18.7449 9.78132 19 10.336 19 10.9199V18C19 19.1046 18.1046 20 17 20H15M9 20V14C9 13.4477 9.44772 13 10 13H14C14.5523 13 15 13.4477 15 14V20M9 20H15" stroke="#464455" stroke-linecap="round" stroke-linejoin="round">
-                              </path>
-                            </g>
-                          </svg>
+                          <svg className="svg" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M22 12.2039V13.725C22 17.6258 22 19.5763 20.8284 20.7881C19.6569 22 17.7712 22 14 22H10C6.22876 22 4.34315 22 3.17157 20.7881C2 19.5763 2 17.6258 2 13.725V12.2039C2 9.91549 2 8.77128 2.5192 7.82274C3.0384 6.87421 3.98695 6.28551 5.88403 5.10813L7.88403 3.86687C9.88939 2.62229 10.8921 2 12 2C13.1079 2 14.1106 2.62229 16.116 3.86687L18.116 5.10812C20.0131 6.28551 20.9616 6.87421 21.4808 7.82274" stroke="#98a3c8" strokeWidth="1.5" strokeLinecap="round"></path> <path d="M15 18H9" stroke="#98a3c8" strokeWidth="1.5" strokeLinecap="round"></path> </g></svg>
                           <span>Home</span>
                         </a>
                       </li>
                       <li>
                         <a href="#" className="nav-link link-dark flex p-2">
-                        <svg className="svg" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g id="SVGRepo_bgCarrier" stroke-width="0">
-                          </g>
-                          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
-                          </g>
-                          <g id="SVGRepo_iconCarrier">
-                          <path d="M8 22.375H38" stroke="#3C3C3C" stroke-width="2" stroke-linejoin="round"></path>
-                          <path d="M11 36.375V22.375" stroke="#3C3C3C" stroke-width="2" stroke-linejoin="round"></path>
-                          <path d="M35 36.375V22.375" stroke="#3C3C3C" stroke-width="2" stroke-linejoin="round"></path>
-                          <path d="M11 22.375H35V30.375C35 32.032 33.657 33.375 32 33.375H14C12.343 33.375 11 32.032 11 30.375V22.375Z" stroke="#3C3C3C" stroke-width="2" stroke-linejoin="round"></path>
-                          <path d="M31 21.375V15.375" stroke="#3C3C3C" stroke-width="2" stroke-linejoin="round"></path>
-                          <path d="M29 9.375H33L35 16.375H27L29 9.375Z" stroke="#3C3C3C" stroke-width="2" stroke-linejoin="round"></path>
-                          <path d="M14 17.375H19V22.375H14V17.375Z" stroke="#3C3C3C" stroke-width="2" stroke-linejoin="round"></path>
-                          <path d="M15.792 17.403L14 13.375" stroke="#3C3C3C" stroke-width="2" stroke-linejoin="round"></path>
-                          </g>
-                        </svg>
+                        <svg className="svg"  viewBox="0 -24.88 122.88 122.88" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"></style> <g> <path className="st0" d="M97.13,61.06c3.25,0,5.88,0.56,5.88,1.25s-2.63,1.25-5.88,1.25c-3.25,0-5.88-0.56-5.88-1.25 S93.88,61.06,97.13,61.06L97.13,61.06z M25.08,14.73v56.31c0,0.58-0.24,1.1-0.61,1.48c-0.38,0.38-0.9,0.61-1.48,0.61h-9.92 c-0.57,0-1.09-0.23-1.47-0.61l0,0l0,0l0,0c-0.38-0.38-0.61-0.9-0.61-1.47V14.73H2.96c-0.82,0-1.56-0.33-2.09-0.87 C0.33,13.32,0,12.58,0,11.77V2.96C0,2.14,0.33,1.4,0.87,0.87S2.14,0,2.96,0h116.96c0.82,0,1.56,0.33,2.09,0.87s0.87,1.28,0.87,2.09 v8.81c0,0.82-0.33,1.56-0.87,2.09c-0.54,0.54-1.28,0.87-2.09,0.87h-0.19v56.31c0,0.57-0.24,1.09-0.61,1.47l-0.01,0.01 c-0.38,0.38-0.9,0.61-1.47,0.61H77.18c-0.58,0-1.1-0.23-1.48-0.61c-0.07-0.07-0.13-0.14-0.19-0.22c-0.27-0.35-0.43-0.79-0.43-1.26 V14.73H25.08L25.08,14.73z M78.54,30.64h37.74V14.73H78.54V30.64L78.54,30.64z M116.28,34.09H78.54V50.3h37.74V34.09L116.28,34.09z M116.28,53.75H78.54v15.93h37.74V53.75L116.28,53.75z M119.43,3.45H3.45v7.83h115.98V3.45L119.43,3.45z M21.63,14.73h-7.21v54.94 h7.21V14.73L21.63,14.73z M97.13,21.27c3.25,0,5.88,0.53,5.88,1.19s-2.63,1.19-5.88,1.19c-3.25,0-5.88-0.53-5.88-1.19 S93.88,21.27,97.13,21.27L97.13,21.27z M97.13,41.13c3.25,0,5.88,0.56,5.88,1.25s-2.63,1.25-5.88,1.25c-3.25,0-5.88-0.56-5.88-1.25 S93.88,41.13,97.13,41.13L97.13,41.13z"></path> </g> </g></svg>
                           Workspace
                         </a>
                       </li>
                       <li>
-                        <a href="#" className="nav-link link-dark">
-                          <svg className="bi me-2" width="16" height="16"><use xlinkHref="#table"></use></svg>
+                        <a href="#" className="nav-link link-dark flex p-2">
+                        <svg className="svg" xmlns="http://www.w3.org/2000/svg" fill="#98a3c8"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="none" stroke="#98a3c8" strokeWidth="2" d="M1,3 L23,3 L23,21 L1,21 L1,3 Z M1,8 L23,8 M7,8 L7,21"></path> </g></svg>
                           All Templates
                         </a>
                       </li>
                       <li>
-                        <a href="#" className="nav-link link-dark">
-                          <svg className="bi me-2" width="16" height="16"><use xlinkHref="#grid"></use></svg>
+                        <a href="#" className="nav-link link-dark flex p-2">
+                        <svg className="svg" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 11.5C9 12.8807 7.88071 14 6.5 14C5.11929 14 4 12.8807 4 11.5C4 10.1193 5.11929 9 6.5 9C7.88071 9 9 10.1193 9 11.5Z" stroke="#98a3c8" strokeWidth="1.5"></path> <path opacity="0.5" d="M14.3206 16.8017L9 13.29" stroke="#98a3c8" strokeWidth="1.5" strokeLinecap="round"></path> <path opacity="0.5" d="M14.4207 6.83984L9.1001 10.3515" stroke="#98a3c8" strokeWidth="1.5" strokeLinecap="round"></path> <path d="M19 18.5C19 19.8807 17.8807 21 16.5 21C15.1193 21 14 19.8807 14 18.5C14 17.1193 15.1193 16 16.5 16C17.8807 16 19 17.1193 19 18.5Z" stroke="#98a3c8" strokeWidth="1.5"></path> <path d="M19 5.5C19 6.88071 17.8807 8 16.5 8C15.1193 8 14 6.88071 14 5.5C14 4.11929 15.1193 3 16.5 3C17.8807 3 19 4.11929 19 5.5Z" stroke="#98a3c8" strokeWidth="1.5"></path> </g></svg>
                           Integrations
                         </a>
                       </li>
                       <li>
-                        <a href="#" className="nav-link link-dark">
-                          <svg className="bi me-2" width="16" height="16"><use xlinkHref="#people-circle"></use></svg>
+                        <a href="#" className="nav-link link-dark flex p-2">
+                        <svg className="svg" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 18V6" stroke="#98a3c8" strokeWidth="1.5" strokeLinecap="round"></path> <path d="M20 6V18" stroke="#98a3c8" strokeWidth="1.5" strokeLinecap="round"></path> <path d="M12 10C16.4183 10 20 8.20914 20 6C20 3.79086 16.4183 2 12 2C7.58172 2 4 3.79086 4 6C4 8.20914 7.58172 10 12 10Z" stroke="#98a3c8" strokeWidth="1.5"></path> <path d="M20 12C20 14.2091 16.4183 16 12 16C7.58172 16 4 14.2091 4 12" stroke="#98a3c8" strokeWidth="1.5"></path> <path d="M20 18C20 20.2091 16.4183 22 12 22C7.58172 22 4 20.2091 4 18" stroke="#98a3c8" strokeWidth="1.5"></path> </g></svg>
+                          Repositories
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="nav-link link-dark flex p-2">
+                        <svg className="svg" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect width="24" height="24" fill="white"></rect> <path d="M21 9V7C21 6.44772 20.5523 6 20 6H10L9 4H4L3.21115 5.57771C3.07229 5.85542 3 6.16165 3 6.47214V9" stroke="#98a3c8" strokeLinecap="round" strokeLinejoin="round"></path> <path d="M3.91321 20H20.0868C20.604 20 21.0359 19.6056 21.0827 19.0905L21.9009 10.0905C21.9541 9.50492 21.493 9 20.905 9H3.09503C2.507 9 2.0459 9.50492 2.09914 10.0905L2.91732 19.0905C2.96415 19.6056 3.39601 20 3.91321 20Z" stroke="#98a3c8" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
+                          Archive
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="nav-link link-dark flex p-2">
+                        <svg className="svg" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 10C9 9.40666 9.17595 8.82664 9.50559 8.33329C9.83524 7.83994 10.3038 7.45543 10.852 7.22836C11.4001 7.0013 12.0033 6.94189 12.5853 7.05765C13.1672 7.1734 13.7018 7.45912 14.1213 7.87868C14.5409 8.29824 14.8266 8.83279 14.9424 9.41473C15.0581 9.99667 14.9987 10.5999 14.7716 11.1481C14.5446 11.6962 14.1601 12.1648 13.6667 12.4944C13.1734 12.8241 12.5933 13 12 13V14M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#98a3c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <circle cx="12" cy="17" r="1" fill="#98a3c8"></circle> </g></svg>
                           Support
                         </a>
                       </li>
