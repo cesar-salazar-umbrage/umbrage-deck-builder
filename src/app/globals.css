@@ -4,6 +4,100 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+/* Container for table buttons */
+.table-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tab {
+  padding: 10px 12px;
+  cursor: pointer;
+  color: #6c757d;
+  border-radius: 16px;
+  font-weight: 500;
+}
+
+.tab.active {
+  background: #e9ecef;
+  color: #343a40;
+  font-weight: bold;
+}
+
+.tab:hover {
+  color: #343a40;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Search Bar */
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  flex-grow: 1;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  color: #888;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.date-picker,
+.export-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.date-picker {
+  background: white;
+  color: #284ab4;
+  display: inline-flex;
+  border: #284ab4 1px solid;
+}
+
+.export-btn {
+  display: inline-flex;
+  background: white;
+  color: #284ab4;
+  border: #284ab4 1px solid;
+}
 
 /* @theme inline {
   --color-background: var(--background);
@@ -19,7 +113,7 @@
   }
 } */
 .sidenav {
-  background-color: #1A2751;
+  background-color: #1a2751;
   color: white;
 }
 
@@ -27,6 +121,11 @@
   fill: white;
   width: 40;
   height: 32;
+}
+
+.ag-theme-alpine .ag-header {
+  background-color: #dce1e5 !important;
+  color: #637280 !important; /* Optional: Change text color for better contrast */
 }
 
 body {
