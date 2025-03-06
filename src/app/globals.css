@@ -153,6 +153,12 @@
   height: 32;
 }
 
+.nav-link {
+  font-size: small;
+  size: 20em;
+  white-space: nowrap;
+}
+
 .ag-theme-alpine .ag-header {
   background-color: #dce1e5 !important;
   color: #637280 !important; /* Optional: Change text color for better contrast */
