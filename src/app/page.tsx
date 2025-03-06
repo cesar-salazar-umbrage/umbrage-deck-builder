@@ -30,33 +30,23 @@ export default function Home() {
         </div>
       </div>
       <div className="row flex justify-content-space-around">
-        <div className="row">
-          <h2 className="h2">Recommended</h2>
-        </div>
-        <div className="col-md m-8">
-          <div className="card">
-            <p>Umbrage Deck</p>
-          </div>
-        </div>
-        <div className="col-md m-8">
-          <div className="card">
-            <p>Umbrage Deck</p>
-          </div>
-        </div>
-        <div className="col-md m-8">
-          <div className="card">
-            <p>Umbrage Deck</p>
-          </div>
-        </div>
-        <div className="col-md m-8">
-          <div className="card">
-            <p>Umbrage Deck</p>
+        <div className="container">
+          <h2><b>Recommended</b></h2>
+          <div className="template-grid">
+            <TemplateCard imageSrc="/Rectangle3107.png" footer="Umbrage Deck" />
+            <TemplateCard
+              imageSrc="/Rectangle3107.png"
+              footer="Umbrage Deck"
+            />
+            <TemplateCard imageSrc="/Rectangle3107.png" footer="Umbrage Deck" />
+            <TemplateCard imageSrc="/Rectangle3107.png" footer="Umbrage Deck" />
+
           </div>
         </div>
       </div>
       <div className="row flex justify-content-space-around">
         <div className="container">
-          <h2>Frequently Used Templates</h2>
+          <h2><b>Frequently Used Templates</b></h2>
           <div className="template-grid">
             <TemplateCard imageSrc="/Rectangle5.png" footer="Umbraticus Dark" />
             <TemplateCard
