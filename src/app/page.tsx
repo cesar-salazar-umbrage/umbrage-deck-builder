@@ -1,13 +1,9 @@
 "use client";
 
 import TableGrid from "./components/TableGrid";
-
-
+import TemplateCard from "./components/TemplateCard";
 
 export default function Home() {
-
-
-
   return (
     <div className="container-fluid grid items-center justify-items-center min-h-screen p-8 pb-20 gap-16">
       <div className="row">
@@ -23,9 +19,15 @@ export default function Home() {
         <p>Recommended</p>
       </div>
       <div className="row">
-        <p>Frequently Used Templates</p>
+         <p>Start a New Presentation </p>
+    <div className="template-grid">
+        <TemplateCard imageSrc="/Rectangle5.png" footer="Umbraticus Dark" />
+        <TemplateCard imageSrc="/Rectangle1.png" footer="Umbraticus Light" />
+        <TemplateCard imageSrc="/Rectangle2.png" footer="Vision Teal" />
+        <TemplateCard imageSrc="/Rectangle3.png" footer="Flux" />
       </div>
-      <TableGrid/>
+      </div>
+      <TableGrid />
     </div>
     // <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
     //   <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
