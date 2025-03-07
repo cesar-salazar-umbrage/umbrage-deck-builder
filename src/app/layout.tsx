@@ -1,18 +1,6 @@
 import type { Metadata } from "next";
-// import { Geist, Geist_Mono } from "next/font/google";
-// import Image from "next/image";
 import "./globals.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
-
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -32,7 +20,7 @@ export default function RootLayout({
             <div className="col-lg">
                 <div className="nav p-3 bg-light sidenav">
                       <svg className="bi me-2" width="40" height="32"><use xlinkHref="#bootstrap"></use></svg>
-                      <img src="./U-Pitch-Logo.png"/>
+                      <img style={{width: "100px"}} src="./U-Pitch-Logo.png"/>
                       <svg className="bi me-2" width="40" height="32"><use xlinkHref="#bootstrap"></use></svg>
                     <hr/>
                     <ul className="nav nav-pills flex-column">
@@ -85,7 +73,6 @@ export default function RootLayout({
                       Logout
                     </a>
                 </div>
-              {/* </div> */}
             </div>
           </div>
           <div className="col-lg">

@@ -52,7 +52,8 @@ export default function TableGrid() {
 
   return (
     <div>
-      <div className="container-fluid p-3 bg-light rounded shadow-sm">
+      <div className="container-fluid p-3 bg-light rounded shadow-sm"
+        style={{backgroundColor: "#FFFFFF"}}>
         <div className="table-buttons-container">
           <ul className="tabs">
             <li className="tab active">Recently viewed</li>
@@ -122,7 +123,6 @@ export default function TableGrid() {
         style={{ height: 220, width: 1200, margin: "0 auto" }}
       >
         <AgGridReact<RowData>
-          // rowSelection="multiple"
           modules={[ClientSideRowModelModule, ValidationModule]}
           columnDefs={columnDefs}
           rowData={rowData}
